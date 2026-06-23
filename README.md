@@ -7,7 +7,7 @@ CPU 温度通过 `cpu-temp` crate 的 **PawnIO 内核驱动**读取（和 LibreH
 ## 构建
 
 ```powershell
-cd D:\Edward\Documents\hud-cli
+cd lenovo-magicbay-hud
 cargo build --release        # 产出 target\release\hud-cli.exe
 ```
 
@@ -17,6 +17,9 @@ cargo build --release        # 产出 target\release\hud-cli.exe
 hud-cli              # 实时 TUI 仪表盘（按 q 或 Esc 退出）
 hud-cli --once       # 采集一次并打印，不进 TUI（快速自检）
 ```
+
+##  效果
+![MagicBay HUD 效果](./magicbay-hud.jpg)
 
 ### CPU 温度 / 功率（需要装 PawnIO 驱动 + 管理员）
 
